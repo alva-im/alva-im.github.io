@@ -1,29 +1,3 @@
-/*  Theme Name: Jaman - Responsive Bootstrap 4 One Page Portfolio Template
-Author: Saptavarana
-Version: 1.0.0
-Created:Saptember 2018
-File Description:Main css file of the template
-*/
-
-/***************
-
-1.BASIC
-2.HELPER
-3.NAVBAR
-4.HOME
-5.ABOUT US
-6.SERVICES
-7.EDU & EXP 
-8.CTA
-9.TESTIMONIAL
-10.PORTFOLIO
-11.BLOG
-12.TRUSTED PEOPLE
-13.CONTACT US
-14.FOOTER
-15.RESPONSIVE
-*****************/
-
 @import url('https://fonts.googleapis.com/css?family=Lato|Poppins:400,600');
 
 /*=================
@@ -67,7 +41,7 @@ button {
     bottom: 15px;
     height: 35px;
     width: 35px;
-    background-color: #F9D302;
+    background-color: #003f85;
     display: none;
     z-index: 10000;
     border-radius: 3px;
@@ -76,7 +50,7 @@ button {
 }
 
 .back_top_angle_up i {
-    color: #fff;
+    color: #7fff00;
     line-height: 35px;
     font-size: 28px;
     display: block;
@@ -97,7 +71,7 @@ button {
 }
 
 .text_custom {
-    color: #F9D302 !important;
+    color: #7fff00 !important;
 }
 
 .btn {
@@ -112,9 +86,9 @@ button {
 }
 
 .btn_custom {
-    border: 1px solid #F9D302;
+    border: 1px solid #003f85;
     color: #fff;
-    background-color: #F9D302;
+    background-color: #003f85;
 }
 
 .btn_custom:hover,
@@ -145,8 +119,8 @@ button {
 .btn_outline_custom:focus,
 .btn_outline_custom:hover,
 .open > .dropdown-toggle.btn_outline_custom {
-    color: #000;
-    background-color: #fff;
+    color: #7fff00;
+    background-color: #003f85;
     border-color: #fff;
 }
 
@@ -213,7 +187,7 @@ button {
     height: 16px;
     line-height: 1px;
     margin: 7px 0 0 0;
-    color: #000 !important;
+    color: #7fff00 !important;
 }
 
 .open-lightbox span {
@@ -263,7 +237,7 @@ button {
     height: 24px;
     margin: 7px 0 0 0;
     top: 23px;
-    color: #000 !important;
+    color: #7fff00 !important;
 }
 
 .close-lightbox .line1 {
@@ -294,7 +268,7 @@ button {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(16, 62, 129, 0.96);
     z-index: 9998;
     color: #fff;
     display: none;
@@ -318,7 +292,7 @@ button {
 }
 
 .nav-bg-box .navbar-nav-jaman li a {
-    color: #7b7b7b;
+    color: #ff1493;
     font-size: 16px;
     line-height: 16px;
     text-transform: uppercase;
@@ -334,7 +308,7 @@ button {
 .nav-bg-box .navbar-nav-jaman li a:hover,
 .nav-bg-box .navbar-nav-jaman li a:active,
 .nav-bg-box .navbar-nav-jaman li a.active {
-    color: #F9D302;
+    color: #7fff00;
 }
 
 .nav-bg-box.active .navbar-nav-jaman li a {
@@ -393,7 +367,7 @@ button {
 }
 
 .text_title_home_top {
-    color: #000;
+    color: #7fff00;
 }
 
 .home_title {
@@ -414,7 +388,7 @@ button {
 }
 
 .home_subtitle {
-    color: #000;
+    color: #7fff00;
     max-width: 350px;
     line-height: 1.8;
 }
@@ -422,7 +396,7 @@ button {
 .home_small_title_border {
     height: 2px;
     width: 70px;
-    background-color: #F9D302;
+    background-color: #003f85;
     margin-bottom: 14px;
 }
 
@@ -457,12 +431,12 @@ button {
     animation: bounce 2s infinite;
     height: 50px;
     width: 30px;
-    background-color: #000;
+    background-color: #7fff00;
     line-height: 60px;
     border-radius: 30px;
     border: 2px solid #060606;
     display: inline-block;
-    color: #fff;
+    color: #000;
     font-size: 28px;
 }
 
@@ -479,7 +453,7 @@ button {
 }
 
 /*------------------
-    HOME DEMO -2
+    HOME 
 -------------------*/
 
 .up-index {
@@ -510,469 +484,6 @@ button {
 }
 
 
-/*====================
-   0.6  SERVICES
-======================*/
-
-.bg_services_img {
-    background-image: url(../images/bg_services.jpg);
-    position: relative;
-    position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.ser_box_devision .service_icon i {
-    font-size: 34px;
-    background-color: #F9D302;
-    display: inline-block;
-    height: 70px;
-    width: 70px;
-    line-height: 70px;
-    text-align: center;
-    border-radius: 50px;
-    font-weight: 700;
-}
-
-.ser_box_devision:hover .service_icon i {
-    transition: all 0.5s;
-    color: #F9D302;
-    background: #fff;
-    font-weight: 700;
-    box-shadow: 0 0 1px #F9D302;
-}
-
-.ser_box_devision p,
-.all_testi_content p,
-.all_testi_content span {
-    color: #e1e1e1;
-}
-
-
-/*=====================
-   0.7  EDU & EXP
-======================*/
-
-.edu_content {
-    padding: 16px;
-}
-
-.edu_detail h5 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-top: 0;
-    text-transform: capitalize;
-}
-
-/*================
-   0.8 CTA
-==================*/
-
-.cta_details_mx {
-    max-width: 635px;
-}
-
-.bg_cta_image {
-    background-image: url(../images/bg_cta_image.jpg);
-    position: relative;
-    position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
-/*====================
-  0.9  TESTIMONIAL
-=====================*/
-
-.bg_testimonial_cover {
-    background-image: url("../images/img3.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-.all_testi_content {
-    max-width: 650px;
-}
-
-.all_testi_content .all_testi_details {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.all_testi_content span {
-    font-size: 12px;
-    text-transform: capitalize;
-}
-
-.testi_content_img img {
-    max-width: 120px;
-    border: 5px solid #ffffff;
-}
-
-.owl-theme .owl-controls .owl-page span {
-    display: block;
-    width: 12px;
-    height: 6px;
-    margin: 5px 4px;
-    filter: Alpha(Opacity=50);
-    opacity: 0.5;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    transition: all 0.5s;
-    background: #F9D302;
-}
-
-.owl-theme .owl-controls .owl-page.active span {
-    width: 20px;
-}
-
-
-/*====================
-  10.  PORTFOLIO
-=====================*/
-
-.work_menu li a {
-    padding: 8px 16px;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    margin-bottom: 5px;
-    display: inline-block;
-    font-size: 14px;
-    transition: all 0.5s;
-    font-weight: 600;
-    color: rgba(0, 0, 0, 0.5) !important;
-    margin-top: 5px;
-}
-
-.work_menu li {
-    margin-right: 0px !important;
-}
-
-.work_menu li:after {
-    content: "-";
-    color: #757575;
-    margin: 0px 16px;
-    position: relative;
-    display: inline-block;
-    top: 1px;
-}
-
-.work_menu li:last-child:after {
-    content: "";
-    display: none;
-}
-
-.work_menu a.active,
-.work_menu a:hover {
-    font-weight: 700;
-    color: #F9D302 !important;
-    background-color: #000;
-    padding: 8px 16px;
-    font-size: 14px;
-    border-radius: 5px;
-}
-
-.work_box .work_detail h4 {
-    font-size: 18px;
-    color: #000;
-}
-
-.work_box .work_detail p {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
-}
-
-.work_item {
-    padding: 15px;
-    position: relative;
-}
-
-.work_item .work_box {
-    margin: 0;
-    position: relative;
-    overflow: hidden;
-}
-
-.work_item .work_box .work_img {
-    transition: all 0.3s ease 0s;
-}
-
-.work_item .work_box img {
-    top: 0;
-    position: relative;
-}
-
-.work_item .work_box img {
-    cursor: pointer;
-    display: block;
-    opacity: 1;
-    width: 100%;
-    transition: all 0.3s ease 0s;
-}
-
-.work_item .work_box:hover img {
-    cursor: pointer;
-    opacity: 1;
-    transform: scale(1, 1);
-    top: -88px;
-}
-
-.work_item .work_detail {
-    height: auto;
-    position: absolute;
-    background-color: #fbfbfb;
-    opacity: 0;
-    bottom: -101px;
-    width: 100%;
-    padding: 20px 0px;
-}
-
-.work_box:hover .work_detail {
-    bottom: 0;
-}
-
-.work_box:hover .work_detail {
-    opacity: 1;
-    transition: all 0.3s ease 0s;
-}
-
-/*=====================
-     11.  BLOG
-=====================*/
-
-.blog_box_detail h5 a {
-    line-height: 1.6;
-    color: #53585d;
-    text-transform: capitalize;
-}
-
-.blog_box_detail .blog_detail_badge {
-    padding: 5px 15px;
-    display: inline-block;
-    font-size: 12px;
-    background: rgba(249, 211, 2, 0.18);
-    color: #F9D302;
-    border-radius: 30px;
-    letter-spacing: 2px;
-}
-
-.blog_box_detail .blog_detail_devider {
-    border-top: 1px solid #cecccc;
-}
-
-/*-------------------
-    EXTRA BLOG PAGE
---------------------*/
-
-.section_article_padding {
-    padding: 60px 0px 0px 0px;
-}
-
-.bg_blog_img {
-    background-image: url(../images/blog/bg_blog.jpg);
-    background-position: center center;
-    background-size: cover;
-}
-
-.half_height_home {
-    position: relative;
-    padding: 200px 0 150px;
-}
-
-.home_header_wrapper a {
-    background-color: transparent;
-    margin-bottom: 0;
-    font-size: 15px;
-}
-
-.home_header_wrapper>li+li:before {
-    color: #fff;
-    content: "/\00a0";
-    margin-right: 5px;
-}
-
-.blog_detail_badge span {
-    padding: 9px 22px;
-    display: inline-block;
-    font-size: 14px;
-    background: #F9D302;
-    color: #fff;
-    border-radius: 30px;
-    letter-spacing: 2px;
-}
-
-.blog_post_date_time {
-    display: inline-block;
-    margin-right: 26px;
-}
-
-.blog_post_date_time ul li a {
-    color: #000;
-    font-size: 14px;
-    transition: all 0.3s;
-}
-
-.blog_post_header blockquote p {
-    padding: 30px 30px;
-    border-left: 5px solid #F9D302;
-}
-
-.tag_boxes a {
-    border-radius: 2px;
-    color: #fff;
-    display: inline-block;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin: 5px 10px 5px 0;
-    padding: 12px 22px;
-    text-transform: uppercase;
-    transition: all 0.3s;
-}
-
-.reading_header a {
-    color: #000;
-    font-size: 18px;
-    letter-spacing: 1px;
-}
-
-.post_follow_social ul li a {
-    display: inline-block;
-    text-align: center;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    font-size: 18px;
-    border: 2px solid #4a4a4a;
-    border-radius: 50%;
-    color: #000;
-    transition: all 0.3s;
-}
-
-.post_follow_social ul li a:hover {
-    background-color: #4a4a4a;
-    transition: all 0.3s;
-    color: #fff;
-}
-
-.blog_side_content .blog_side {
-    margin: 0 0 40px;
-    padding: 30px 20px;
-    background-color: #F3F3F3;
-}
-
-.side_header h6 {
-    text-transform: uppercase;
-    font-weight: normal;
-    letter-spacing: 1px;
-    font-size: 15px;
-}
-
-.category ul li {
-    margin-bottom: 15px;
-}
-
-.category ul li a,
-span {
-    color: #000;
-    font-size: 14px;
-}
-
-.news-letter form {
-    max-width: 400px;
-}
-
-.news-letter input {
-    padding: 12px 20px;
-    width: 100%;
-    font-size: 16px;
-    color: #000 !important;
-    border: none;
-    outline: none !important;
-    padding-right: 150px;
-    padding-left: 30px;
-}
-
-.new_post .recent_post_img {
-    float: left;
-    width: 80px;
-}
-
-.new_post .recent_post_info {
-    padding-top: 2px;
-    margin-left: 92px;
-}
-
-.new_post .recent_post_info a {
-    color: #666;
-    text-transform: capitalize;
-    font-size: 14px;
-    letter-spacing: 1px;
-    line-height: 1.4;
-}
-
-.new_post .post_set_date {
-    margin-bottom: 20px;
-    font-size: 12px;
-}
-
-.side_tag_boxes a {
-    border-radius: 2px;
-    color: #fff;
-    display: inline-block;
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin: 4px 8px 6px 0;
-    padding: 7px 14px;
-    text-transform: capitalize;
-    transition: all 0.3s;
-}
-
-.side_tag_boxes a, .tag_boxes a {
-    background-color:#F9D302;
-}
-
-/*====================
-  12 Trusted People
-=====================*/
-
-.bg_trusted_client_cover {
-    background-image: url("../images/img4.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-}
-
-/*======================
-  13. CONTACT US
-========================*/
-
-.contact_form_custom .form-control {
-    height: 50px;
-    font-size: 16px;
-    border-color: #eae7e7;
-}
-
-.contact_form_custom .form-control:focus {
-    border-color: #F9D302 !important;
-    box-shadow: none;
-    outline: 0;
-}
-
-textarea.form-control {
-    height: auto !important;
-}
-
-.contact_detail p {
-    overflow: hidden;
-}
-
-.contact_details_content .contact_icon i {
-    font-size: 36px;
-}
-
 
 /*=====================
     14.  FOOTER
@@ -1001,8 +512,8 @@ textarea.form-control {
 
 .footer_alt_all_cls ul li a:hover {
     color: #fff;
-    background-color: #F9D302;
-    border: 2px solid #F9D302;
+    background-color: #003f85;
+    border: 2px solid #003f85;
 }
 
 
@@ -1030,7 +541,7 @@ textarea.form-control {
         display: none;
     }
     .text_title_home_top span {
-        color: #F9D302 !important;
+        color: #003f85 !important;
     }
     .home-top-title,
     .text_title_home_top,
